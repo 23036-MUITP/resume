@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500&display=swap");
+
+body {
+    font-family: IBM Plex Sans;
+    color: rgb(6, 10, 35);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(99, 106, 126);
+}
+
+.header-image {
+    height: 214px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: -50px;
+}
+
+.header-text {
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-text .secondary {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.secondary {
+    color: rgb(99, 106, 126);
+}
+
+.section {
+    margin-top: 75px;
+}
+
+.content {
+    max-width: 630px !important;
+    margin: 0px auto;
+}
+
+.image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.image-text .name {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.image-text .desc {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.image-text span {
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 21px;
+}
+
+.section-title {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 7.5px 15px;
+    background-color: rgb(245, 245, 245);
+    width: fit-content;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.ph {
+    font-size: 32px;
+    color: rgb(99, 106, 126);
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 15px;
+}
+
+.child-text {
+    font-size: 16px;
+}
+
+.child-text .secondary {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.container-child {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.column {
+    padding-bottom: 15px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-cont {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px 20px;
+    background-color: rgb(245, 245, 245);
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.one {
+    background-color: #222;
+    height: 2px;
+    width: 37.5px;
+}
+
+.two {
+    background-color: #222;
+    height: 2px;
+    width: 25px;
+}
+
+.three {
+    background-color: #222;
+    height: 2px;
+    width: 12.5px;
+}
+
+.progress {
+    height: 2px;
+    width: 50px;
+    background-color: #f5f5f5;
+}
+
+.tools .ph {
+    font-size: 14px;
+}
+
+.tool-title {
+    margin-bottom: 20px;
+}
+
+.tools-cont {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.tool-section {
+    margin-top: 30px;
+}
+
+.main-cont {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-text {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+input,
+textarea {
+    background-color: rgb(245, 245, 245);
+    border: none !important;
+    padding: 12px 14px;
+    line-height: 1.4em;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    width: 602px;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 602px;
+    background-color: rgb(34, 34, 34);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+::placeholder {
+    font-family: IBM Plex Sans;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer-image {
+    height: 214px;
+    border-top: 1px solid #e6e6e6;
+    margin-bottom: -50px;
+}
+
+.footer-text {
+    position: absolute;
+    padding-bottom: 75px;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-text .secondary {
+    font-size: 14px;
+    font-weight: 400;
+}
